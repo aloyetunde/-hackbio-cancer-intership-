@@ -2,7 +2,7 @@
 library(dplyr)
 library(data.table)
 
-data <- read.delim("C:/Users/sante/Desktop/WHO_AMR_PRODUCTS_DATA.tsv",sep="\t")
+data <- read.delim("C:/Users/Mary/Desktop/WHO_AMR_PRODUCTS_DATA.tsv",sep="\t")
 data
 
 summary(data)
