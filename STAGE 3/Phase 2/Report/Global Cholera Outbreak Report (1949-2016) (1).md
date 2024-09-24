@@ -29,7 +29,7 @@ Figure 1: Distribution of reported cholera cases and deaths over time.
 
 ![](https://github.com/Tomi-beloved/hackbio-cancer-internship/blob/main/Satge%203/AMR_Phase%202/Images/Average%20Cholera%20Fatality%20Rate%20Over%20Time.jpeg)
 
-Figure 2: Average case fatality rates over time.
+**Figure 2: Average case fatality rates over time**.
 
 Country-wise, India had the highest number of reported cases (1363250) and deaths (509438) (Figure 3), while Italy had the highest average case fatality rate (53.3%) (Figure 4\) over time.
 
