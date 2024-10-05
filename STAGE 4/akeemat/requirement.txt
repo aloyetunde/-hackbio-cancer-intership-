@@ -1,0 +1,10 @@
+List of required tools
+1. fastqc
+3. bbtools
+4. bwa
+5. samtools
+6. bcftools
+7. freebayes
+
+
+
