@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Create the environment
+conda create --name ngs_pipeline
+
 # Activate the conda environment
 source activate ngs_pipeline
 
