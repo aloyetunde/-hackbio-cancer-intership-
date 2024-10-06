@@ -18,6 +18,7 @@ bash setup.sh
 ```
 
 ## Usage
+
 ### Clone the repository
 First, clone the repository to your local machine or cloud environment:
 
@@ -25,18 +26,21 @@ First, clone the repository to your local machine or cloud environment:
 git clone https://github.com/aloyetunde/-hackbio-cancer-intership-.git
 cd -hackbio-cancer-intership-/STAGE%204
 ```
+### Prepare the environment
+
+Ensure all required tools and dependencies are installed by running the
+[setup.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/setup.sh) script. This script will install tools like FastQC, FastP, BWA, samtools and bcftools if they aren't already installed:
 
 To execute the pipeline, run the following script:
 ```bash
 bash script.sh
 ```
-Ensure all required tools and dependencies are installed by running the
-[setup.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/setup.sh) script. This script will install tools like FastQC, FastP, BWA, samtools and bcftools if they aren't already installed:
 
  ### Run the Pipeline
 Run the pipeline with the [script.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/sript.sh) script.
 
-Required Inputs:
+
+#### Required Inputs:
 
 Reference Genome: A .fasta file (e.g., reference.fasta)
 
