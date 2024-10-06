@@ -34,7 +34,7 @@ Ensure all required tools and dependencies are installed by running the
 [script.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/script.sh) script. This script will install tools like FastQC, FastP, BWA, samtools and bcftools if they aren't already installed:
 
  ### Run the Pipeline
-You can run the pipeline with the script.sh script.
+Run the pipeline with the script.sh script.
 
 Required Inputs:
 
