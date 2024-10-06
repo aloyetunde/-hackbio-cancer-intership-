@@ -18,6 +18,14 @@ bash setup.sh
 ```
 
 ## Usage
+### Clone the repository
+First, clone the repository to your local machine or cloud environment:
+
+```bash
+git clone https://github.com/aloyetunde/-hackbio-cancer-intership-.git
+cd -hackbio-cancer-intership-/STAGE%204
+```
+
 To execute the pipeline, run the following script:
 ```bash
 bash script.sh
