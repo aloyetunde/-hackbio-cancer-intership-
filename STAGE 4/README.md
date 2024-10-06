@@ -11,20 +11,20 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fbioinformatics.biotech.wisc.ed
 4. [Tools](#tools)
 5. [Addition Resources](#Addition Resources)
 
-### Installation
+## Installation
 
 
-### Usage
+## Usage
 Ensure all required tools and dependencies are installed by running the setup.sh script. This script will install tools like FastQC, FastP, BWA, and bcftools if they aren't already installed:
 
- # Run the Pipeline
+ ### Run the Pipeline
 you can run the pipeline with the script.sh script.
 Required Inputs:
 Reference Genome: A .fasta file (e.g., reference.fasta)
 Forward Strand: A .fastq.gz file containing the forward strand reads (e.g., ACBarrie_R1.fastq.gz)
 Reverse Strand: A .fastq.gz file containing the reverse strand reads (e.g., ACBarrie_R2.fastq.gz)
 
- # Pipeline Workflow
+ ### Pipeline Workflow
 The pipeline performs the following steps:
 
 1. Quality Control (FastQC): Analyzes the quality of the raw sequencing reads.
@@ -32,22 +32,22 @@ The pipeline performs the following steps:
 3. Genome Mapping (BWA): Maps the trimmed reads to the reference genome.
 4. Variant Calling (bcftools/freebayes): Identifies variants (SNPs and indels) based on the mapped reads.
 
- # Output Files
+ ### Output Files
 FastQC Reports: Quality control reports for both forward and reverse reads.
 Trimmed Reads: Files with trimmed reads for both forward and reverse strands.
 BAM/SAM Files: Aligned reads in BAM or SAM format.
 VCF Files: Variant call format file containing the identified variants.
 
-### Datasets
+## Datasets
 Reference Genome: Reference.fasta
 Forward Strand: ACBarrie_R1.fastq.gz
 Reverse Strand: ACBarrie_R2.fastq.gz
 
-### Tools
+## Tools
 FastQC
 FastP
 BWA
 bcftools/freebayes
 Refer to requirements.txt for a complete list of dependencies.
 
-### Additional Resources
+## Additional Resources
