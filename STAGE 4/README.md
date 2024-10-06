@@ -61,6 +61,6 @@ samtools
 
 bcftools/freebayes
 
-Refer to requirements.txt for a complete list of dependencies.
+Refer to [requirements.txt](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/requirements.txt) for a complete list of dependencies.
 
 ## Additional Resources
