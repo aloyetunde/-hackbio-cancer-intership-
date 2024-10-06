@@ -11,7 +11,7 @@ This repository contains a simple Next Generation Sequencing (NGS) analysis pipe
    
 
 ## Installation
-
+To set up the required tools for the NGS analysis pipeline, run the following command:
 
 ```bash
 bash setup.sh
@@ -22,7 +22,7 @@ To execute the pipeline, run the following script:
 ```bash
 bash script.sh
 ```
-Ensure all required tools and dependencies are installed by running the setup.sh script. This script will install tools like FastQC, FastP, BWA, and bcftools if they aren't already installed:
+Ensure all required tools and dependencies are installed by running the <https://github.com/MernaSalem/hackbio-cancer-internship-/blob/main/Stage-3/Summary-Stage3-Cholera%20outbreaks.md> script. This script will install tools like FastQC, FastP, BWA, and bcftools if they aren't already installed:
 
  ### Run the Pipeline
 you can run the pipeline with the script.sh script.
