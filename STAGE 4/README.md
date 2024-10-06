@@ -22,7 +22,9 @@ To execute the pipeline, run the following script:
 ```bash
 bash script.sh
 ```
-Ensure all required tools and dependencies are installed by running the <https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/script.sh> script. This script will install tools like FastQC, FastP, BWA, and bcftools if they aren't already installed:
+Ensure all required tools and dependencies are installed by running the
+[script.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/script.sh)
+<https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/script.sh> script. This script will install tools like FastQC, FastP, BWA, and bcftools if they aren't already installed:
 
  ### Run the Pipeline
 you can run the pipeline with the script.sh script.
