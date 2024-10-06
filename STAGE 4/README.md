@@ -1,6 +1,6 @@
 # NGS Analysis Pipeline
 
-Authors (@slack): Akeemat Ayinla (@That_Hakeemah), Alo Yetunde Mary (@YetQiaM)
+Authors (@slack): Alo Yetunde Mary (@YetQiaM), Akeemat Ayinla (@That_Hakeemah)
 ## Description
 This repository contains a simple Next Generation Sequencing (NGS) analysis pipeline implemented using various bioinformatics tools. The pipeline performs quality control, trimming, genome mapping, and variant calling on raw sequencing data.
 
