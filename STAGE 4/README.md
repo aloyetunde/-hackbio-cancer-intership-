@@ -33,7 +33,7 @@ Ensure all required tools and dependencies are installed by running the
 
 To execute the pipeline, run the following script:
 ```bash
-bash script.sh
+bash setup.sh
 ```
 
  ### Run the Pipeline
