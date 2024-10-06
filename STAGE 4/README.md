@@ -48,16 +48,19 @@ BAM/SAM Files: Aligned reads in BAM or SAM format.
 VCF Files: Variant call format file containing the identified variants.
 
 ## Datasets
-Reference Genome: Reference.fasta
-Forward Strand: ACBarrie_R1.fastq.gz
-Reverse Strand: ACBarrie_R2.fastq.gz
+Links to all input files referred to in the script are provided in [dataset](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/STAGE%204/DATA/DATASET.md).
 
 ## Tools
 FastQC
+
 FastP
+
 BWA
+
 samtools
+
 bcftools/freebayes
+
 Refer to requirements.txt for a complete list of dependencies.
 
 ## Additional Resources
