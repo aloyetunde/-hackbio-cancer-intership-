@@ -13,7 +13,4 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fbioinformatics.biotech.wisc.ed
 6. [License](#license)
 
 ## Installation
-To set up the required tools for the NGS analysis pipeline, run the following command:
 
-```bash
-bash setup.sh
