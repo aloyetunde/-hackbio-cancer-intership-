@@ -23,7 +23,7 @@ To execute the pipeline, run the following script:
 bash script.sh
 ```
 Ensure all required tools and dependencies are installed by running the
-[script.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/script.sh) script. This script will install tools like FastQC, FastP, BWA, and bcftools if they aren't already installed:
+[script.sh](https://github.com/aloyetunde/-hackbio-cancer-intership-/blob/main/script.sh) script. This script will install tools like FastQC, FastP, BWA, samtools and bcftools if they aren't already installed:
 
  ### Run the Pipeline
 you can run the pipeline with the script.sh script.
@@ -38,7 +38,8 @@ The pipeline performs the following steps:
 1. Quality Control (FastQC): Analyzes the quality of the raw sequencing reads.
 2. Trimming (FastP): Trims the raw reads to remove adapters and low-quality bases.
 3. Genome Mapping (BWA): Maps the trimmed reads to the reference genome.
-4. Variant Calling (bcftools/freebayes): Identifies variants (SNPs and indels) based on the mapped reads.
+4. Compression, viewing and sorting of sam files (samtools) : Compresses sam files to smaller files in the bam format. The sam and bam files can also be viewed and sorted.
+5. Variant Calling (bcftools/freebayes): Identifies variants (SNPs and indels) based on the mapped reads.
 
  ### Output Files
 FastQC Reports: Quality control reports for both forward and reverse reads.
@@ -55,6 +56,7 @@ Reverse Strand: ACBarrie_R2.fastq.gz
 FastQC
 FastP
 BWA
+samtools
 bcftools/freebayes
 Refer to requirements.txt for a complete list of dependencies.
 
